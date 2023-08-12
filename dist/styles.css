@@ -1,0 +1,63 @@
+/* src/styles.css */
+
+/* Global styles */
+body {
+  background-image: url('img/background.jpeg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  background-color: rgba(76, 175, 80, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Menu styles */
+.menu {
+  float: right;
+  width: 200px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+  background-color: rgba(76, 175, 80, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.menu li:hover {
+  background-color: #388E3C;
+  cursor: pointer;
+}
+
+/* Content styles */
+.content {
+  margin-right: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
